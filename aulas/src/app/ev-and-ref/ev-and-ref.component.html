@@ -1,2 +1,6 @@
 <input type="text" [style.background]="cor" (mouseenter)='changecolor("red")' (focus)='changecolor("pink")'
-(blur)='changecolor("grey")' (input)='changecolor("green")' (copy)='changecolor("yellow")'>
+(blur)='changecolor("grey")' (input)='changecolor("green")' (copy)='changecolor("yellow")' #fx>
+
+<button (click)="fade(fx)">1</button>
+<button (click)="size(fx)">2</button>
+<button (click)="move(fx)">3</button>

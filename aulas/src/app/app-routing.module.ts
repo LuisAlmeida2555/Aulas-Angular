@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:"calculator", component: CalculadoraComponent},
   {path:"readMeGen", component: ReadMeGeneratorComponent},
   {path:"experiments", component: ExperimentsComponent},
-  {path:"eventAndRef", component: EvAndRefComponent}
+  {path:"evAndRef", component: EvAndRefComponent}
 ];
 
 @NgModule({

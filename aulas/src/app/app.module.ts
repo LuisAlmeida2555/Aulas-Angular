@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { ExperimentsComponent } from './experiments/experiments.component';
 import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
+import { AnimalComponent } from './animal/animal.component';
+import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
     ReadMeGeneratorComponent,
     HomeComponent,
     ExperimentsComponent,
-    EvAndRefComponent
+    EvAndRefComponent,
+    AnimalComponent,
+    EscolheAnimalComponent
   ],
   imports: [
     BrowserModule,

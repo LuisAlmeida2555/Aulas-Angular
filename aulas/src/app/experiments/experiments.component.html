@@ -1,2 +1,7 @@
 <input type="text" (input)="changeName($event)" value={{name}} >
 <p>Olá, {{name}}</p>
+
+<h1>Diretiva NG for</h1>
+<div *ngFor="let animal of arrayAnimais">
+<h4>{{animal}}</h4>
+</div>
