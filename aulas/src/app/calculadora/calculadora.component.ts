@@ -33,5 +33,5 @@ export class CalculadoraComponent implements OnInit {
     }
   }
 
-  
+
 }

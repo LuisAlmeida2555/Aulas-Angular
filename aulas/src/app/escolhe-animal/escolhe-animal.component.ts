@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PhonebookService } from '../services/phonebook.service';
 
 @Component({
   selector: 'app-escolhe-animal',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EscolheAnimalComponent implements OnInit {
 
-  constructor() { }
+  agendaService : PhonebookService;
+  constructor(private pService: PhonebookService) {  }
 
   ngOnInit(): void {
   }
