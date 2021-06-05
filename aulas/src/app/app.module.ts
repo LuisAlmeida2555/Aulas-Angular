@@ -11,7 +11,8 @@ import { ExperimentsComponent } from './experiments/experiments.component';
 import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { AnimalComponent } from './animal/animal.component';
-import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.component';
+import { FourOFourComponent } from './components/four-ofour/four-ofour.component';
+import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { EscolheAnimalComponent } from './escolhe-animal/escolhe-animal.componen
     ExperimentsComponent,
     EvAndRefComponent,
     AnimalComponent,
-    EscolheAnimalComponent
+    FourOFourComponent,
+    BuyComponent,
   ],
   imports: [
     BrowserModule,

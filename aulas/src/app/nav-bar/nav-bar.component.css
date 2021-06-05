@@ -1,12 +1,1 @@
-.activePage{
-  color: green;
-  font-size: large;
-  font-weight: bold;
-  background-color: yellow;
 
-  transition: all 1s;
-}
-
-a{
-  padding: 10px;
-}
