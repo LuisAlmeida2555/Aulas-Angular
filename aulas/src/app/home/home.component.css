@@ -1,4 +1,10 @@
-input{
-  display: block;
-  margin-top: 15px;
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
+
+.card{
+  height: 100%;
+}
+
