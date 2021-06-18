@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:"", component: HomeComponent},
   {path:"home", component: HomeComponent},
   {path:"calculator", component: CalculadoraComponent},
-  {path:"readMeGen", component: ReadMeGeneratorComponent},
+  //{path:"readMeGen", component: ReadMeGeneratorComponent},
   {path:"experiments", component: ExperimentsComponent},
   {path:"evAndRef", component: EvAndRefComponent},
   {path:"notfound", component: FourOFourComponent},
