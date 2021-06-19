@@ -13,6 +13,8 @@ import { EvAndRefComponent } from './ev-and-ref/ev-and-ref.component';
 import { AnimalComponent } from './animal/animal.component';
 import { FourOFourComponent } from './components/four-ofour/four-ofour.component';
 import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
+import { CookiesComponent } from './components/cookies/cookies.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
     AnimalComponent,
     FourOFourComponent,
     BuyComponent,
+    CookiesComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
