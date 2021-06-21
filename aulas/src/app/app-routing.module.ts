@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { ChuckComponent } from './components/chuck/chuck.component';
 import { FourOFourComponent } from './components/four-ofour/four-ofour.component';
 import { AddComponent } from './components/lista-de-compras/add/add.component';
 import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
@@ -26,6 +27,7 @@ const routes: Routes = [
     ]
   },
   {path:"**", redirectTo : "notFound"},
+  {path:"chuck", component: ChuckComponent}
 ];
 
 @NgModule({

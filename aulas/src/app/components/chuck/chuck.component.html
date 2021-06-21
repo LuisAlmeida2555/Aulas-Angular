@@ -1,0 +1,10 @@
+<h1>{{piada}}</h1>
+<!--<h1>{{resultado.value}}</h1>-->
+<button class="button1" (click) = "getjoke()"> Get Joke </button>
+
+<button class="button2" (click) = "getmorepiadas(valor.value)"> Mais piadas </button>
+<input type="text" placeholder="Procure Algo" #valor>
+
+<div *ngFor="let item of piadas.result">
+  <h3>{{item.value}}</h3>
+</div>

@@ -15,6 +15,8 @@ import { FourOFourComponent } from './components/four-ofour/four-ofour.component
 import { BuyComponent } from './components/lista-de-compras/buy/buy.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ChuckComponent } from './components/chuck/chuck.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     BuyComponent,
     CookiesComponent,
     ContactoComponent,
+    ChuckComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
