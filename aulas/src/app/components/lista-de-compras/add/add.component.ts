@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Artigo } from 'src/app/artigo';
+import { ListaService } from 'src/app/services/lista.service';
 
 @Component({
   selector: 'app-add',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add.component.css']
 })
 export class AddComponent implements OnInit {
+  listService: ListaService;
 
-  constructor() { }
+  constructor(private list: ListaService) {
+    this.listService = list;
+   }
 
   ngOnInit(): void {
   }
 
+  addToList(name, price){
+    this.listService.listaCompras.push(new Artigo(name, price));
+  }
 }
